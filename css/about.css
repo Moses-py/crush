@@ -1,0 +1,125 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #2b2b28 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #2b2b28 !important;
+  }
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+.crush-brand{
+  border: 2px solid white;
+}
+.khandee-img{
+  height:350px;
+  width:350px;
+}
+
+.khandee-about-img{
+  height:350px;
+  width:350px;
+  border-radius:100%;
+}
+@media (max-width:1700px) and (min-width:765px) {
+  .works{
+    position:relative;
+  }
+  .work-2{
+    position: relative;;
+    left:49%;
+    top:88%;
+  }
+  .work-3{
+    position: relative;;
+    right:49%;
+    top:88%;
+  }
+}
+
+@media (max-width:764px) {
+  .works{
+    position:relative;
+  }
+  .work-2{
+    position:relative;
+  }
+  .work-3{
+    position:relative;
+  }
+  .khandee-about-img{
+    height:150px;
+    width:150px;
+    border-radius:100%;
+  }
+  .img-list{
+    height:200px;
+    width:200px;
+  }
+  .service-row{
+    text-align: center;
+  }
+}
+
+.contact-section {
+  /* The image used */
+  background-image: url("C:/Users/Gebruiker/Desktop/khandee/images/testi-bg.jpg");
+
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-fo0ter{
+  height:600px;
+}
+.footer-copyright{
+    background-color:#353230;
+
+}
+.hover-link:hover{
+  background-color: grey;
+}
+
+.hr{
+  border: 10px dotted #ebebe3;
+  width:5%;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.grey-bg{background-color: #f9f9ff;}
+
+.khandee{
+    height: 250px;
+    width:250px;
+}
